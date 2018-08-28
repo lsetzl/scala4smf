@@ -80,5 +80,8 @@ modules.xml
 *.class
 *.log
 
-
 # End of https://www.gitignore.io/api/scala,intellij+all
+
+/project/target/
+/target/
+test.mid
