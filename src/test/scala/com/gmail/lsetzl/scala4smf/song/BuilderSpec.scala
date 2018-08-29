@@ -6,6 +6,6 @@ import org.scalatest.{DiagrammedAssertions, FlatSpec}
 class BuilderSpec extends FlatSpec with DiagrammedAssertions with SmfAssertions {
   "write" should "generate standard midi file" in {
     Builder().write("test.mid")
-    isSmf("test.mid")
+    assert(isSmf("test.mid"))
   }
 }

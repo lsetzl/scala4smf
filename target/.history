@@ -1,2 +1,80 @@
 ;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/cfln.MSE-NTTD/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/cfln.MSE-NTTD/.IntelliJIdea2018.1/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
 exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/cfln.MSE-NTTD/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/cfln.MSE-NTTD/.IntelliJIdea2018.1/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/cfln.MSE-NTTD/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/cfln.MSE-NTTD/.IntelliJIdea2018.1/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/cfln.MSE-NTTD/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/cfln.MSE-NTTD/.IntelliJIdea2018.1/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+test
+testOnly
+initialize
+show {file:/C:/Users/cfln.MSE-NTTD/Documents/workspace/scala4smf/}scala4smf/test:testOptions
+set testOptions.in(ProjectRef(uri("file:/C:/Users/cfln.MSE-NTTD/Documents/workspace/scala4smf/"), "scala4smf")) in Test+=Tests.Argument(TestFrameworks.ScalaTest, "-oDU")
+show {file:/C:/Users/cfln.MSE-NTTD/Documents/workspace/scala4smf/}scala4smf/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/C:/Users/cfln.MSE-NTTD/Documents/workspace/scala4smf/"), "scala4smf")) in Test:=false
+{file:/C:/Users/cfln.MSE-NTTD/Documents/workspace/scala4smf/}scala4smf/testOnly com.gmail.lsetzl.scala4smf.Scala4SmfSpec
+{file:/C:/Users/cfln.MSE-NTTD/Documents/workspace/scala4smf/}scala4smf/testOnly com.gmail.lsetzl.scala4smf.song.BuilderSpec
+{file:/C:/Users/cfln.MSE-NTTD/Documents/workspace/scala4smf/}scala4smf/testOnly com.gmail.lsetzl.scala4smf.song.ForSongSpec
+set parallelExecution.in(ProjectRef(uri("file:/C:/Users/cfln.MSE-NTTD/Documents/workspace/scala4smf/"), "scala4smf")) in Test:=Defining Test / testOptions
+The new value will be used by Test / test / testOptions, Test / testOnly / testOptions, Test / testQuick / testOptions
+Reapplying settings...
+Set current project to scala4smf (in build file:/C:/Users/cfln.MSE-NTTD/Documents/workspace/scala4smf/)
+initialize
+show {file:/C:/Users/cfln.MSE-NTTD/Documents/workspace/scala4smf/}scala4smf/test:testOptions
+show {file:/C:/Users/cfln.MSE-NTTD/Documents/workspace/scala4smf/}scala4smf/test:parallelExecution
+{file:/C:/Users/cfln.MSE-NTTD/Documents/workspace/scala4smf/}scala4smf/testOnly com.gmail.lsetzl.scala4smf.Scala4SmfSpec
+{file:/C:/Users/cfln.MSE-NTTD/Documents/workspace/scala4smf/}scala4smf/testOnly com.gmail.lsetzl.scala4smf.song.BuilderSpec
+{file:/C:/Users/cfln.MSE-NTTD/Documents/workspace/scala4smf/}scala4smf/testOnly com.gmail.lsetzl.scala4smf.song.ForSongSpec
+initialize
+show {file:/C:/Users/cfln.MSE-NTTD/Documents/workspace/scala4smf/}scala4smf/test:testOptions
+show {file:/C:/Users/cfln.MSE-NTTD/Documents/workspace/scala4smf/}scala4smf/test:parallelExecution
+{file:/C:/Users/cfln.MSE-NTTD/Documents/workspace/scala4smf/}scala4smf/testOnly com.gmail.lsetzl.scala4smf.Scala4SmfSpec
+{file:/C:/Users/cfln.MSE-NTTD/Documents/workspace/scala4smf/}scala4smf/testOnly com.gmail.lsetzl.scala4smf.song.BuilderSpec
+{file:/C:/Users/cfln.MSE-NTTD/Documents/workspace/scala4smf/}scala4smf/testOnly com.gmail.lsetzl.scala4smf.song.ForSongSpec
+test
+update
+test
+reload
+test
+test:compile
+exit
+test
+test:compile
+reload
+test
+exit
+reload
+test
+reload
+test
+reload
+test:compile
+test
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/cfln.MSE-NTTD/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/cfln.MSE-NTTD/.IntelliJIdea2018.1/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+test
+reload
+compile
+test
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/cfln.MSE-NTTD/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/cfln.MSE-NTTD/.IntelliJIdea2018.1/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+reload
+compile
+test
+reload
+compile
+test
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/cfln.MSE-NTTD/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/cfln.MSE-NTTD/.IntelliJIdea2018.1/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/cfln.MSE-NTTD/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/cfln.MSE-NTTD/.IntelliJIdea2018.1/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/cfln.MSE-NTTD/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/cfln.MSE-NTTD/.IntelliJIdea2018.1/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/cfln.MSE-NTTD/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/cfln.MSE-NTTD/.IntelliJIdea2018.1/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+test
+~test:compile
+test:compile
+test
+scala
